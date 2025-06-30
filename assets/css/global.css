@@ -1,0 +1,25 @@
+h1 {
+    color: #5fb89b;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2rem;
+    border-bottom: 2px solid #7BDCB5;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 20px 10px;
+    }
+}

@@ -1,0 +1,103 @@
+.form-card {
+    width: 100%;
+    max-width: 600px; /* más grande que antes */
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-control {
+    padding: 14px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-control:focus {
+    border-color: #7BDCB5;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(123, 220, 181, 0.25);
+}
+
+.btn-primary {
+    background-color: #7BDCB5;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+.btn-cancelar {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn-primary:hover {
+    background-color: #5fb89b;
+    transform: scale(1.01);
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+.btn-cancelar:hover {
+    background-color: #b44848;
+    transform: scale(1.01);
+}
+
+.btn-cancelar:active {
+    transform: scale(0.98);
+}
+
+.form-response {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .form-card {
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    .form-group label {
+        font-size: 16px;
+    }
+
+    .input-control,
+    .btn-primary {
+        font-size: 16px;
+        padding: 12px;
+    }
+}

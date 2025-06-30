@@ -1,0 +1,1 @@
+verde = #7BDCB5, blanco, negro, sombra?= #EEEEEE
