@@ -27,7 +27,6 @@ require_once __DIR__ . '/config.php';
 
     <?php require_once ROOT_PATH . '/includes/footer.php'; ?>
 </body>
-<!-- SweetAlert2 -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="<?php echo BASE_URL; ?>/js/header.js"></script>
 <script src="<?php echo BASE_URL; ?>/js/crearUsuarioFetch.js"></script>
