@@ -3,7 +3,7 @@ require_once __DIR__ . '/config.php';
 
 $title = "Inicio";
 
-ob_start(); // comienza a capturar el contenido
+ob_start(); 
 ?>
 
 <h1>Proyectos Disponibles</h1>
@@ -69,5 +69,5 @@ $result = $conn->query($sql);
 
 
 <?php
-$content = ob_get_clean(); // guarda el contenido en la variable
+$content = ob_get_clean(); 
 require_once __DIR__ . '/layout.php';
