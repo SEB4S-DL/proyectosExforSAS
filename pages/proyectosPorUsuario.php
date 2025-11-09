@@ -35,7 +35,7 @@ ob_start();
 
 <h1>Proyectos de <?= htmlspecialchars($usuario['nombre']) ?></h1>
 <div class="text-center">
-    <button class="btn-volver" onclick="window.location.href='<?= BASE_URL ?>/pages/usuarios.php'">⏪ Volver</button>
+    <button class="btn-volver" onclick="window.location.href='<?= BASE_URL ?>/pages/Usuarios.php'">⏪ Volver</button>
 </div>
 
 <?php if ($resultProyectos->num_rows > 0): ?>

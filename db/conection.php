@@ -2,7 +2,7 @@
 // Limpio desde la primera línea sin espacios
 $host = 'localhost';//cambiar si es necesario
 $user = 'root';//cambiar si es necesario
-$password = '123456';//cambiar si es necesario
+$password = '0211';//cambiar si es necesario
 $database = 'crud_db';
 
 $conn = new mysqli($host, $user, $password, $database);
